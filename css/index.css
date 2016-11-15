@@ -1,0 +1,30 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+header .top{
+	width: 100%;
+	height: 92px;
+	background-color: yellow;
+	font-size: 14px;	
+}
+.top span:first-of-type {
+	margin-left: 12px;
+}
+.ns{
+	width: 100%;
+	height: 10px;
+	background-color: #efefef;
+}
+.nd div:first-of-type{
+	font-size: 26px;
+	background-color: #f38631;
+}
+.nd div:last-of-type{
+	float: left;
+	background-color: #bdbdbd;
+	text-decoration: none;
+	margin-top: 28px;
+	margin-right: 20px;
+}

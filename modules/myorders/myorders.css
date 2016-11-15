@@ -1,0 +1,70 @@
+@charset "utf-8";
+.myordersheader{
+  width: 100%;
+  height: 1.40625rem;
+  border-bottom: 0.03125rem solid #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9fafd;
+}
+.myordersheader > span {
+  font-size: 0.40625rem;
+  color: #333333;
+  font-weight: bold;
+}
+.myordersheader img:first-of-type {
+  width: 0.359375rem;
+  height: 0.625rem;
+  margin-left: 0.390625rem;
+}
+.myordersheader img:last-of-type {
+  width: 0.640625rem;
+  height: 0.640625rem;
+  margin-right: 0.25rem;
+}
+.nav {
+  width: 100%;
+  height: 1.28125rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 0.03125rem solid #e0e0e0;
+  position: relative;
+}
+.nav > span {
+  display: inline-block;
+  position: absolute;
+  width: 1.5rem;
+  height: 0.0625rem;
+  background-color: #ff3800;
+  left: 0.0rem;
+  bottom: 0.0rem;
+}
+.nav p {
+  display: inline-block;
+  font-size: 0.34375rem;
+  line-height: 0.34375rem;
+  color: #333;
+}
+.myordersfooter {
+  width: 100%;
+  height: 12.96875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #efefef;
+}
+.myordersfooterr dl {
+  text-align: center;
+}
+.myordersfooter dl dt img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.myordersfooter dl dd {
+  font-size: 0.40625rem;
+  line-height: 0.40625rem;
+  color: #999999;
+  margin-top: 0.40625rem;
+}

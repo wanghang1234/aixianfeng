@@ -1,0 +1,251 @@
+@charset "utf-8";
+.marketheader {
+  width: 100%;
+  height: 1.4375rem;
+  background-color: #ffd600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.marketheader a {
+  font-size: 0.40625rem;
+  color: #44412e;
+}
+.marketheader a:first-of-type {
+  opacity: 0;
+  margin-left: 0.203125rem;
+}
+.marketheader a:first-of-type img {
+  width: 0.71875rem;
+  height: 0.984375rem;
+}
+.marketheader a:last-of-type {
+  margin-right: 0.203125rem;
+}
+.marketheader a:last-of-type img {
+  width: 0.625rem;
+  height: 0.984375rem;
+}
+.marketheader a:nth-of-type(2) img {
+  width: 0.25rem;
+  height: 0.25rem;
+}
+.navigator {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.navigator ul {
+  width: 2.375rem;
+}
+.navigator ul li {
+  height: 1.25rem;
+  border-bottom: 0.03125rem solid #e0e0e0;
+  background-color: #f8f8f8;
+  color: #6d6d6d;
+  font-size: 0.34375rem;
+  line-height: 1.25rem;
+  text-align: center;
+}
+.navigator ul li:nth-of-type(2) {
+  position: relative;
+}
+.navigator ul li:nth-of-type(2) img {
+  width: 0.859375rem;
+  height: 0.859375rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.navigator ul li:last-of-type {
+  border-bottom: none;
+}
+.navigator section {
+  width: 7.4rem;
+}
+.navigator section h1 {
+  height: 1.25rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.03125rem solid #e0e0e0;
+}
+.navigator section h1 a {
+  font-weight: normal;
+  display: inline-block;
+  height: 0.359375rem;
+  line-height: 0.359375rem;
+  font-size: 0.34375rem;
+  color: #7d7d7d;
+  padding: 0 0.921875rem 0 0.875rem;
+}
+.navigator section h1 a:first-of-type {
+  border-right: 0.03125rem solid #dddddd;
+}
+.navigator section h1 a img {
+  width: 0.3125rem;
+  height: 0.359375rem;
+  vertical-align: top;
+  margin-left: 0.15625rem;
+}
+.navigator section div {
+  height: 11.46875rem;
+  overflow: hidden;
+}
+.navigator section div dl {
+  padding: 0.25rem 0 0.3125rem 0;
+  position: relative;
+  border-bottom: 0.03125rem solid #e0e0e0;
+}
+.navigator section div dl > span {
+  width: 0.875rem;
+  height: 0.875rem;
+  position: absolute;
+  border-radius: 50%;
+  border: 0.03125rem solid #e1e1e1;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0.34375rem;
+  right: 0.34375rem;
+}
+.navigator section div dl > span img {
+  width: 0.34375rem;
+  height: 0.34375rem;
+}
+
+
+.navigator section div dl > p {
+  position: absolute;
+  right: 0.34375rem;
+  bottom: 0.3125rem;
+}
+.navigator section div dl > p span:nth-of-type(1) {
+  display: inline-block;
+  width: 0.8125rem;
+  height: 0.8125rem;
+  border-radius: 50%;
+  border: 0.03125rem solid #ffbe89;
+  vertical-align: top;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigator section div dl > p span:nth-of-type(1) img {
+  width: 0.34375rem;
+  height: 0.09375rem;
+}
+.navigator section div dl > p span:nth-of-type(2) {
+  display: inline-block;
+  height: 0.8125rem;
+  line-height: 0.8125rem;
+  padding: 0 0.25rem;
+  font-size: 0.3125rem;
+  color: #333;
+}
+.navigator section div dl > p span:nth-of-type(3) {
+  display: inline-block;
+  width: 0.8125rem;
+  height: 0.8125rem;
+  border-radius: 50%;
+  border: 0.03125rem solid #ffbe89;
+  vertical-align: top;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigator section div dl > p span:nth-of-type(3) img {
+  width: 0.34375rem;
+  height: 0.34375rem;
+}
+
+.navigator section div dl dt {
+  float: left;
+  width: 2.75rem;
+  height: 2.203125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigator section div dl dt:nth-of-type(1) img {
+  width: 1.34375rem;
+  height: 2.03125rem;
+}
+.navigator section div dl dt:nth-of-type(2) img {
+  width: 1.34375rem;
+  height: 2.03125rem;
+}
+.navigator section div dl dt:nth-of-type(3) img {
+  width: 1.953125rem;
+  height: 1.953125rem;
+}
+.navigator section div dl dt:nth-of-type(4) img {
+  width: 1.953125rem;
+  height: 2.03125rem;
+}
+.navigator section div dl dd {
+  margin-left: 0.15625rem;
+}
+.navigator section div dl dd:nth-of-type(1) {
+  line-height: 0.34375rem;
+  font-size: 0.34375rem;
+  color: #232b33;
+}
+.navigator section div dl dd:nth-of-type(2) {
+  margin-top: 0.234375rem;
+}
+.navigator section div dl dd:nth-of-type(2) span {
+  display: inline-block;
+  padding: 0 0.109375rem;
+  height: 0.375rem;
+  line-height: 0.375rem;
+  font-size: 0.28125rem;
+  border-radius: 0.09375rem;
+}
+.navigator section div dl dd:nth-of-type(2) span:first-of-type {
+  border: 0.015625rem solid red;
+  color: red;
+  margin-right: 0.203125rem;
+}
+.navigator section div dl dd:nth-of-type(2) span:last-of-type {
+  background-color: red;
+  color: white;
+}
+.navigator section div dl dd:nth-of-type(3) {
+  margin-top: 0.21875rem;
+  line-height: 0.34375rem;
+  font-size: 0.34375rem;
+  color: #999;
+}
+.navigator section div dl dd:nth-of-type(4) {
+  line-height: 0.3125rem;
+  font-size: 0.3125rem;
+  margin-top: 0.234375rem;
+  color: #ff3800;
+  margin-bottom: 0.1875rem;
+}
+.navigator section div dl dd:nth-of-type(4) span {
+  margin-left: 0.109375rem;
+  color: #9f9f9f;
+  text-decoration: line-through;
+}
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 1.5625rem;
+  background-color: #f5f5f5;
+}
+footer dl {
+  margin-top: 0.203125rem;
+  text-align: center;
+}
+footer dl dt img {
+  width: 0.625rem;
+  height: 0.625rem;
+}
+footer dl dd {
+  margin-top: 0.234375rem;
+  font-size: 0.34375rem;
+  line-height: 0.34375rem;
+  color: #7b7b7b;
+}
